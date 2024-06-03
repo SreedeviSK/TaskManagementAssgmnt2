@@ -1,9 +1,6 @@
-import React, { useReducer, useState } from "react";
+import React, { useState } from "react";
 import './task.css'
-const initialState={
-    items:[],
-    currentItem:null,
-};
+
 
 const Task = () => {
   const[tasks,setTasks]=useState([])
